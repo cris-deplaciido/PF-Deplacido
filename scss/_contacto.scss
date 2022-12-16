@@ -1,0 +1,23 @@
+form {
+    @include flex-centrado;
+    gap: 90px;
+}
+
+
+#form {
+    
+    div {
+        background-color: rgba(33, 87, 131, 0.945);
+    }
+}
+
+.formu {
+    margin-top: 50px;
+    
+
+}
+
+.lista-direccion2 {
+    align-items: center;
+    
+}
