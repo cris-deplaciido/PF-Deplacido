@@ -162,6 +162,9 @@ img {
 .card-hijo img {
   height: 250px;
 }
+.card-hijo p {
+  color: black;
+}
 
 #banner-abuelo {
   grid-area: banner;
@@ -273,56 +276,7 @@ form {
 
 #card-nosotros {
   display: flex;
-  justify-content: center;
-}
-
-.card2 {
-  display: flex;
-  justify-content: flex-start;
-}
-
-.card3 {
-  display: flex;
   justify-content: flex-end;
-}
-
-.grid-container {
-  margin: 0 auto;
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 300px auto 100px;
-  gap: 25px 0px;
-  grid-template-areas: "header header header" "main main main" "footer footer footer";
-}
-
-.header-nav {
-  grid-area: header;
-}
-
-.main {
-  grid-area: main;
-}
-
-.foter {
-  grid-area: footer;
-}
-
-#frente-negocio {
-  display: flex;
-  justify-content: center;
-}
-
-.direccion-card {
-  display: grid;
-  grid-template-columns: auto;
-  row-gap: 2rem;
-  column-gap: 50px;
-}
-
-#card-nosotros {
-  display: flex;
-  justify-content: center;
 }
 
 .card2 {
